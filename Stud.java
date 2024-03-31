@@ -1,7 +1,7 @@
 import java.time.LocalDate;
 import java.time.Period;
 
-public class Stud {
+public class Stud extends StudCourse {
     private String name;
     private LocalDate dob;
 
@@ -26,5 +26,7 @@ public class Stud {
         s1.display();
         LocalDate currDate = LocalDate.now();
         s1.displayAge(currDate);
+        s1.DisplayMarks();
+        s1.DisplayMarkses();
     }
 }
